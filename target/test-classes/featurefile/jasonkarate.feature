@@ -10,6 +10,21 @@ Scenario: Parsing the sampel jason file
 	"age"		: 30
 	},
 	{
+	"name"  :  "Ayush",
+	"place" :  "Atlanta",
+	"age"		: 30
+	},
+	{
+	"name"  :  "Aju",
+	"place" :  "Atlanta",
+	"age"		: 30
+	},
+	{
+	"name"  :  "Nadhi",
+	"place" :  "Atlanta",
+	"age"		: 30
+	},
+	{
 	"name"  :  "Aju",
 	"place" :  "Chicago",
 	"age"		: 30
