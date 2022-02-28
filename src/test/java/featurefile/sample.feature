@@ -13,6 +13,8 @@ Scenario: multiplecation
 	* def val1 = 50
 	* def val2 = 5
 	* print 'Multiplication' + (val1*val2)
-	
+	* print str = 'Nadhi'
+	* def name = 'Nadhima28'
+	* print name
 
 	
