@@ -1,0 +1,18 @@
+<testsuite failures="0" name="src/test/java/featurefile/APIcall.feature" skipped="0" tests="1" time="2.312248">
+  <testcase classname="src.test.java.featurefile.APIcall" name="Get User details" time="2.312248">
+    <system-out>Given url baseUrl+'/public/v2/users' ...................................... passed
+And path 30 ............................................................... passed
+When method Get ........................................................... passed
+Then status 200 ........................................................... passed
+* def actualresponse = response ........................................... passed
+* print actualresponse .................................................... passed
+* print actualresponse.name + " " + actualresponse.email .................. passed
+* def name = actualresponse.name .......................................... passed
+* def email = actualresponse.email ........................................ passed
+* def urlname = baseUrl+'/public/v2/users' ................................ passed
+* match name == 'Manisha Banerjee' ........................................ passed
+* match email == 'banerjee_manisha@balistreri.org' ........................ passed
+* print response.status ................................................... passed
+* print urlname ........................................................... passed</system-out>
+  </testcase>
+</testsuite>
