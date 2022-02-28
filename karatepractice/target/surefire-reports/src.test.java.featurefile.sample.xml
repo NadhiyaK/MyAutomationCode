@@ -1,0 +1,23 @@
+<testsuite failures="0" name="src/test/java/featurefile/sample.feature" skipped="0" tests="3" time="0.056537">
+  <testcase classname="src.test.java.featurefile.sample" name="print hello world" time="0.0077">
+    <system-out>* print 'Hello World' ..................................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.featurefile.sample" name="add 2 numbers" time="0.018335">
+    <system-out>* print 'Hello World' ..................................................... passed
+* def int = 300 ........................................................... passed
+* def bal = 200 ........................................................... passed
+* print 'total' + (int+bal) ............................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.featurefile.sample" name="multiplecation" time="0.030502">
+    <system-out>* print 'Hello World' ..................................................... passed
+* def int = 300 ........................................................... passed
+* def bal = 200 ........................................................... passed
+* print 'total' + (int+bal) ............................................... passed
+* def val1 = 50 ........................................................... passed
+* def val2 = 5 ............................................................ passed
+* print 'Multiplication' + (val1*val2) .................................... passed
+* print str = 'Nadhi' ..................................................... passed
+* def name = 'Nadhima28' .................................................. passed
+* print name .............................................................. passed</system-out>
+  </testcase>
+</testsuite>

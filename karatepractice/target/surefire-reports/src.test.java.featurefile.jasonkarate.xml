@@ -1,0 +1,21 @@
+<testsuite failures="0" name="src/test/java/featurefile/jasonkarate.feature" skipped="0" tests="2" time="0.096542">
+  <testcase classname="src.test.java.featurefile.jasonkarate" name="Parsing the sampel jason file" time="0.053391">
+    <system-out>* def Jasonobject = ....................................................... passed
+* print Jasonobject ....................................................... passed
+* print Jasonobject[2] .................................................... passed
+* print Jasonobject[3].name + " " + Jasonobject[3].age .................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.featurefile.jasonkarate" name="complex jason reader" time="0.043151">
+    <system-out>* def Jasonobject = ....................................................... passed
+* print Jasonobject ....................................................... passed
+* print Jasonobject[2] .................................................... passed
+* print Jasonobject[3].name + " " + Jasonobject[3].age .................... passed
+* def Jasonreader = ....................................................... passed
+* print Jasonreader ....................................................... passed
+* print Jasonreader.ppu ................................................... passed
+* print Jasonreader.batters ............................................... passed
+* print Jasonreader.batters.batter[0] ..................................... passed
+* print Jasonreader.batters.batter[2] ..................................... passed
+* print Jasonreader.topping[2].id + " " + Jasonreader.topping[2].type ..... passed</system-out>
+  </testcase>
+</testsuite>
