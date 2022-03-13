@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="NCAA.ncaa.rahulshetty">
+      <class name="NCAA.ncaa.nhs">
         <methods>
-          <include name="loginpage"/>
+          <include name="nhs1"/>
         </methods>
-      </class> <!-- NCAA.ncaa.rahulshetty -->
+      </class> <!-- NCAA.ncaa.nhs -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

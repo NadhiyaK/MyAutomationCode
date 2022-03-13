@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 477.723 s <<< FAILURE! - in TestSuite
+hpvalidation(EndtoEnd.EndtoEndAuto.homefeaturevalidation)  Time elapsed: 448.071 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=99.0.4844.51)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'TSPORTS-WNQVH17LW2', ip: 'fe80:0:0:0:10cb:c41c:cdec:d605%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.1', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9470d761aa865499321f54f3ccfb6154, findElement {using=css selector, value=input[type='submit']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: /var/folders/wh/x1b9bbws1cs...}, goog:chromeOptions: {debuggerAddress: localhost:63281}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:63281/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9470d761aa865499321f54f3ccfb6154
+	at EndtoEnd.EndtoEndAuto.homefeaturevalidation.hpvalidation(homefeaturevalidation.java:29)
+
+aftertes(EndtoEnd.EndtoEndAuto.homefeaturevalidation)  Time elapsed: 448.141 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=99.0.4844.51)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'TSPORTS-WNQVH17LW2', ip: 'fe80:0:0:0:10cb:c41c:cdec:d605%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.1', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9470d761aa865499321f54f3ccfb6154, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: /var/folders/wh/x1b9bbws1cs...}, goog:chromeOptions: {debuggerAddress: localhost:63281}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:63281/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9470d761aa865499321f54f3ccfb6154
+	at EndtoEnd.EndtoEndAuto.homefeaturevalidation.aftertes(homefeaturevalidation.java:34)
+
