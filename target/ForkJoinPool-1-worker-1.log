@@ -1,0 +1,166 @@
+18:09:01.869 [print] [
+  {
+    "name": "Nadhi",
+    "place": "Atlanta",
+    "age": 30
+  },
+  {
+    "name": "Aju",
+    "place": "Chicago",
+    "age": 30
+  },
+  {
+    "name": "Ayush",
+    "place": "LA",
+    "age": 9
+  },
+  {
+    "name": "Arush",
+    "place": "Newyork",
+    "age": 5
+  }
+]
+
+18:09:01.904 [print] {
+  "name": "Ayush",
+  "place": "LA",
+  "age": 9
+}
+
+18:09:01.921 [print] Arush 5
+18:09:01.949 [print] {
+  "id": "0001",
+  "type": "donut",
+  "name": "Cake",
+  "ppu": 0.55,
+  "batters": {
+    "batter": [
+      {
+        "id": "1001",
+        "type": "Regular"
+      },
+      {
+        "id": "1002",
+        "type": "Chocolate"
+      },
+      {
+        "id": "1003",
+        "type": "Blueberry"
+      },
+      {
+        "id": "1004",
+        "type": "Devil's Food"
+      }
+    ]
+  },
+  "topping": [
+    {
+      "id": "5001",
+      "type": "None"
+    },
+    {
+      "id": "5002",
+      "type": "Glazed"
+    },
+    {
+      "id": "5005",
+      "type": "Sugar"
+    },
+    {
+      "id": "5007",
+      "type": "Powdered Sugar"
+    },
+    {
+      "id": "5006",
+      "type": "Chocolate with Sprinkles"
+    },
+    {
+      "id": "5003",
+      "type": "Chocolate"
+    },
+    {
+      "id": "5004",
+      "type": "Maple"
+    }
+  ]
+}
+
+18:09:01.956 [print] 0.55
+18:09:01.965 [print] {
+  "batter": [
+    {
+      "id": "1001",
+      "type": "Regular"
+    },
+    {
+      "id": "1002",
+      "type": "Chocolate"
+    },
+    {
+      "id": "1003",
+      "type": "Blueberry"
+    },
+    {
+      "id": "1004",
+      "type": "Devil's Food"
+    }
+  ]
+}
+
+18:09:01.978 [print] {
+  "id": "1001",
+  "type": "Regular"
+}
+
+18:09:01.983 [print] {
+  "id": "1003",
+  "type": "Blueberry"
+}
+
+18:09:01.992 [print] 5005 Sugar
+004",
+      "type": "Devil's Food"
+    }
+  ]
+}
+
+20:26:43.138 [print] {
+  "id": "1001",
+  "type": "Regular"
+}
+
+20:26:43.149 [print] {
+  "id": "1003",
+  "type": "Blueberry"
+}
+
+20:26:43.162 [print] 5005 Sugar
+id": "5001",
+    "type": "None"
+  },
+  {
+    "id": "5002",
+    "type": "Glazed"
+  },
+  {
+    "id": "5005",
+    "type": "Sugar"
+  },
+  {
+    "id": "5007",
+    "type": "Powdered Sugar"
+  },
+  {
+    "id": "5006",
+    "type": "Chocolate with Sprinkles"
+  },
+  {
+    "id": "5003",
+    "type": "Chocolate"
+  },
+  {
+    "id": "5004",
+    "type": "Maple"
+  }
+]
+
