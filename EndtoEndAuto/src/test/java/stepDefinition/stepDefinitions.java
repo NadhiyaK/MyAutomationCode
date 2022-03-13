@@ -30,7 +30,7 @@ public class stepDefinitions extends base {
 	    	String url=  driver.getCurrentUrl();
 	      System.out.println(url);
 	    
-	    	  System.out.println("Login is successful");
+	    	  System.out.println("Login is successful.");
 	    }
 
 	    @And("^Navigate to \"([^\"]*)\" site$")
