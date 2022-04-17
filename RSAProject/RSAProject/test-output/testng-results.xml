@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35971" started-at="2022-04-16T20:15:48 EDT" finished-at="2022-04-16T20:16:24 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35971" started-at="2022-04-16T20:15:48 EDT" finished-at="2022-04-16T20:16:24 EDT">
+      <class name="E2ERSAProject.RSAProject.landingPage">
+        <test-method status="PASS" signature="browserinitialize()[pri:0, instance:E2ERSAProject.RSAProject.landingPage@2e3fc542]" name="browserinitialize" is-config="true" duration-ms="6676" started-at="2022-04-16T20:15:48 EDT" finished-at="2022-04-16T20:15:55 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserinitialize -->
+        <test-method status="PASS" signature="landingpagevalidation(java.lang.String,java.lang.String)[pri:0, instance:E2ERSAProject.RSAProject.landingPage@2e3fc542]" name="landingpagevalidation" duration-ms="13569" started-at="2022-04-16T20:15:55 EDT" data-provider="userdata" finished-at="2022-04-16T20:16:09 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nadhima28@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingpagevalidation -->
+        <test-method status="PASS" signature="landingpagevalidation(java.lang.String,java.lang.String)[pri:0, instance:E2ERSAProject.RSAProject.landingPage@2e3fc542]" name="landingpagevalidation" duration-ms="15554" started-at="2022-04-16T20:16:09 EDT" data-provider="userdata" finished-at="2022-04-16T20:16:24 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ajanths@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[54321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingpagevalidation -->
+        <test-method status="PASS" signature="closingbrowser()[pri:0, instance:E2ERSAProject.RSAProject.landingPage@2e3fc542]" name="closingbrowser" is-config="true" duration-ms="93" started-at="2022-04-16T20:16:24 EDT" finished-at="2022-04-16T20:16:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingbrowser -->
+      </class> <!-- E2ERSAProject.RSAProject.landingPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
