@@ -29,8 +29,15 @@ public class duplicatechar {
 	
 	}
 	 
-	
-	 
+	ArrayList<Character> ch1 = new ArrayList<Character>();
+	for(char c: ch)
+	{
+		if(!ch1.contains(c))
+		{
+			ch1.add(c);
+		}
+	}
+	 System.out.println(ch1);
 	 
 	}
 

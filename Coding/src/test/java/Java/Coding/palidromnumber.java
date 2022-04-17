@@ -1,5 +1,7 @@
 package Java.Coding;
 
+import java.util.ArrayList;
+
 public class palidromnumber {
 
 	
@@ -53,6 +55,17 @@ public class palidromnumber {
 		{
 			System.out.println(n + " is not a palindrom");
 		}
+	
+	
+	int eee = 54334;
+	String num1 = Integer.toString(eee);
+	ArrayList<Integer> ad = new ArrayList<Integer>();
+	
+	for (int i = num1.length()-1; i>=0; i--)
+	{
+		System.out.println(num1.charAt(i));
+		
 	}
 
+}
 }

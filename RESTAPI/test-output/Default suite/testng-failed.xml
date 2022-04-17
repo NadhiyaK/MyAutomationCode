@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="API.RESTAPI.gmailcheck">
+      <class name="API.RESTAPI.Postmethod">
         <methods>
-          <include name="gmail"/>
+          <include name="apitesting" invocation-numbers="0 1 2 3 4"/>
         </methods>
-      </class> <!-- API.RESTAPI.gmailcheck -->
+      </class> <!-- API.RESTAPI.Postmethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

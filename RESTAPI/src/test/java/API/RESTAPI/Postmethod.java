@@ -24,7 +24,7 @@ public class Postmethod {
 		RestAssured.baseURI="https://reqres.in/";
 		
 		
-		String response = given().log().all().header("content-ty[e", "application.json").body(Payload.payload(name, job))
+		String response = given().log().all().header("content-type", "application.json").body(Payload.payload(name, job))
 		.when().post("/api/users").then().log().all().assertThat().statusCode(201).extract().response().asString();
 		JsonPath res = Jsonparsing.parsing(response);
 		

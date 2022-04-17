@@ -1,5 +1,7 @@
 package Java.Coding;
 
+import java.util.Arrays;
+
 public class sorting {
 
 	public static void main(String[] args) {
@@ -26,7 +28,12 @@ public class sorting {
 			}
 			System.out.println(num[i]);
 		}
-		
+		//sorting method
+		Arrays.sort(num);
+		for(int i =0; i<num.length; i++)
+		{
+		System.out.println(num[i]);
+		}
 		
 	}
 
